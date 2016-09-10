@@ -5,12 +5,15 @@
 ### Novedades versión 1.0.0.0.
 
 > Versión final de la Api.
+
 > Operaciones soportadas on POST: 'signup', 'login', 'listado', 'add' y 'saludo'.
+
 > Conexión con MySql on PDO.
 
 ### Implementaciones.
 
 > Intercambio de información con el formato de comunicación Json para compartir recursos.
+
 > Conexión a base de datos MySql con PDO previniendo la inyección de sentencias.
 
 ### Descripción.
@@ -23,7 +26,7 @@ La comunicación la realizamos enviando los datos en formato Json:
 }
 ```
 
-Recibiendo la salida tanbien en Json:
+Recibiendo la salida también en Json:
 
 ```
 {
@@ -38,9 +41,7 @@ Recibiendo la salida tanbien en Json:
 
 El verbo utilizado en las peticiones a la API REST es POST. Mediante este verbo
 identificamos las operaciones y obtenemos la salida de datos correspondiente.
-
 Aunque el verbo GET también está implementado, no reliaza función.
-
 Para ejecutarlo es necesario dar permisos de ejecución.
 
 ### Mas Información.
