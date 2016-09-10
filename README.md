@@ -39,6 +39,13 @@ Recibiendo la salida también en Json:
 
 ### Fundamentos.
 
+DevAge Api es un servicio web RESTful para app android DevAge, proyecto final del
+curso de perfeccionamiento de Android, impartido en la Escuela de Ingenierías
+Industriales de la Universidad de Extremadura. Esta api forma parte de este
+proyecto, junto con la aplicación java para móviles android DevAge. EL lenguaje
+en el que se ha escrito la api es Php, la base de datos MySql y el formato de
+intercambio de información, los datos de la aplicación, es Json.
+
 El verbo utilizado en las peticiones a la API REST es POST. Mediante este verbo
 identificamos las operaciones y obtenemos la salida de datos correspondiente.
 Aunque el verbo GET también está implementado, no reliaza función.
@@ -46,7 +53,7 @@ Para ejecutarlo es necesario dar permisos de ejecución.
 
 ### Mas Información.
 
-> [antoniohorrillo.com] (http://www.antoniohorrillo.com/node/16)
+> [blog.antoniohorrillo.com] (http://blog.antoniohorrillo.com/node/16)
 
 ### Licencia.
 
