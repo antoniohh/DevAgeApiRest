@@ -63,9 +63,9 @@ class Dao {
      */
     protected static function ejecutaConsulta($sql) {
         $opc = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8");
-        $dsn = "";
-        $usuario = '';
-        $contrasena = '';
+        $dsn = "mysql:host=********;dbname=********";
+        $usuario = '********';
+        $contrasena = '********';
         $devage = new PDO($dsn, $usuario, $contrasena, $opc);
         $resultado = null;
         if (isset($devage)) {
@@ -217,7 +217,7 @@ class Dao {
      */
     public static function listado() {
         $sql = "SELECT `dni`, `nombre`, `apellidos`, `email`, ";
-        $sql.= "`especialidad` FROM `dev_age_dev` ORDER BY `nombre`;";
+        $sql.= "`especialidad` FROM `dev_age_dev`;";
         $resultado = self::ejecutaConsulta($sql);
         $listado = array();
         $i = 0;
